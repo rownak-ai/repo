@@ -7,6 +7,7 @@ class_targets = [0,1,1]
 for tar_index, distribution in zip(class_targets,softmax_outputs):
     print(distribution,tar_index)
     print(distribution[tar_index])'''
+##Comments will be added soon
 
 import numpy as np
 import nnfs
